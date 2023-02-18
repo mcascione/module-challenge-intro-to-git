@@ -37,4 +37,4 @@ To do this, navigate into the local Git repository that has the merge conflict u
 
 A similar process is used to resolve competing file change merge conflicts. However, in this case, you will decide whether to delete or keep the file with a new commit. 
 
-Skipping to the step where you have opened the removed file in your code editor, you can either add the removed file back to your repository using `git add <filename>` or remove it using `git rm <filename>`. You would then commit your changes using `git commit -m "<insert message about resolving merge conflict explaining whether you kept it or deleted the file>"` and then merge your branches with `git push` and a subsequent pull request. 
+Skipping through the steps above where you have opened the removed file in your code editor, you can either add the removed file back to your repository using `git add <filename>` or remove it using `git rm <filename>`. You would then commit your changes using `git commit -m "<insert message about resolving merge conflict explaining whether you kept it or deleted the file>"` and then merge your branches with `git push` and a subsequent pull request. 
